@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    tools:context=".StartFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+        <FrameLayout
+            android:id="@+id/main_start_lt_back"
+            android:layout_width="481dp"
+            android:layout_height="597dp"
+            android:layout_marginStart="-77dp"
+            android:layout_marginTop="-77dp"
+            android:minWidth="481dp"
+            android:clipChildren="false">
+
+            <View
+                android:layout_width="154dp"
+                android:layout_height="154dp"
+                android:alpha="0.5"
+                android:background="@drawable/back_circle_lime" />
+
+            <View
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="483dp"
+                android:alpha="0.5"
+                android:background="@drawable/back_circle_lime_opaque" />
+
+            <View
+                android:layout_width="59dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="422dp"
+                android:layout_marginTop="117dp"
+                android:alpha="0.5"
+                android:background="@drawable/back_circle_lime_opaque" />
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="196dp"
+                android:alpha="0.7"
+                android:background="@drawable/back_circle_lime" />
+
+            <View
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="390dp"
+                android:layout_marginTop="264dp"
+                android:alpha="0.3"
+                android:background="@drawable/back_circle_lime" />
+
+            <View
+                android:layout_width="59dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="363dp"
+                android:layout_marginTop="538dp"
+                android:alpha="0.7"
+                android:background="@drawable/back_circle_lime" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:clipChildren="false">
+
+
+            <com.vitbit.toss_lime.extension.LimeShadowCircleView
+                android:id="@+id/main_start_back_ring_blur"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="77dp"
+                android:background="@drawable/back_ring_lime" />
+
+            <ImageView
+                android:id="@+id/main_start_img_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginStart="14dp"
+                android:layout_marginBottom="114dp"
+                android:src="@drawable/img_logo" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:lines="1"
+            android:textColor="@color/chat_darken"
+            android:textSize="20sp"
+            android:text="@string/prelude"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/main_start_btn_get_started"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxWidth="335dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="62dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:text="@string/login"
+                android:background="@drawable/btn_ripple_effect"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

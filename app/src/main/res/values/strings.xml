@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Toss_Lime</string>
+
+    <string name="prelude">It all starts small!</string>
+    <string name="start">Get started</string>
+    <string name="login">Login</string>
+    <string name="enter">Enter</string>
+    <string name="password">Password</string>
+    <string name="register_link"><u>Register</u></string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">Name</string>
+    <string name="user_last_name">Last name</string>
 </resources>

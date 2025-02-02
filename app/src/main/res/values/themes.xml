@@ -5,5 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Toss_Lime" parent="Base.Theme.Toss_Lime" />
+    <style name="Theme.Toss_Lime" parent="Base.Theme.Toss_Lime" >
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
 </resources>
