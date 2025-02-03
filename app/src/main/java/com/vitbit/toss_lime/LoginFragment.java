@@ -92,10 +92,12 @@ public class LoginFragment extends Fragment {
                 view.findViewById( R.id.main_login_circle_4)
         };
 
+        //----------------------------------------------------------------------------------------
         edTxtLogin = view.findViewById( R.id.main_login_edit_text_login);
         edTxtPass = view.findViewById( R.id.main_login_edit_text_password);
-        btnLogin = view.findViewById( R.id.main_login_btn_login);
-        txtRegistration = view.findViewById( R.id.main_login_btn_registration);
+        btnLogin = view.findViewById( R.id.main_login_btn_login);         //TODO установить слушатель, метод в конце класса
+        txtRegistration = view.findViewById( R.id.main_login_btn_registration);//установлен слушатель, метод в самом низу
+        //----------------------------------------------------------------------------------------
     }
 
     //трансляция(анимация) logo
@@ -188,5 +190,8 @@ public class LoginFragment extends Fragment {
             }
         });
 
+        //TODO кнопка авторизации
+        //btnLogin.setOnClickListener();
+        //в слушателе условия и создание нового активити
     }
 }
